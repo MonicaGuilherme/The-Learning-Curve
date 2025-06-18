@@ -17,7 +17,7 @@ Each folder or file is self-contained and usually reflects:
 This repo will grow over time and include code in various languages as I expand my knowledge.  
 Feel free to explore, borrow, or comment, it’s an open and evolving part of my learning journey.
 
-## 🛠️ Tech / Tools
+## Tech / Tools
 
 - Java  
 - JavaScript  
