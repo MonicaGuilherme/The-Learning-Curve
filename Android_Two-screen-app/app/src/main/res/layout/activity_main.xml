@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="62dp"
-        android:text="Make Your Profile"
+        android:text="@string/make_your_profile"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,8 +30,10 @@
         android:hint="Right you name"
         android:inputType="text"
         android:textSize="16sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="112dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/text_bio"
@@ -42,8 +44,10 @@
         android:hint="Right about yourself..."
         android:inputType="text"
         android:textSize="16sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="112dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_preview"
@@ -51,19 +55,23 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="500dp"
         android:layout_marginBottom="8dp"
-        android:text="Profile Preview"
+        android:text="@string/profile_preview"
         app:layout_constraintBottom_toTopOf="@+id/button_linkedIn"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="133dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_linkedIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:text="Connect to LinkedIn"
+        android:text="@string/connect_to_linkedin"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_preview"
-        tools:layout_editor_absoluteX="118dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_preview" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

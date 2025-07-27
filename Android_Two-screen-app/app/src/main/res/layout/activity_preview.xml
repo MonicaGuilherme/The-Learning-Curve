@@ -11,32 +11,44 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Profile Preview"
+        android:layout_marginTop="64dp"
+        android:text="@string/profile_preview_view"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="59dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/nameView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="name"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="143dp" />
+        android:layout_marginTop="150dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/bioView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BIO"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="279dp" />
+        android:layout_marginTop="250dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="626dp" />
+        android:layout_marginBottom="50dp"
+        android:text="@string/make_your_profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

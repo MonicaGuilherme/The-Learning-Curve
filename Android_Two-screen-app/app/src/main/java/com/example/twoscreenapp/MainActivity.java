@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         previewBtn.setOnClickListener(v -> {
             String nameText = name.getText().toString();
 
-            Intent intent = new Intent(getApplicationContext(), PreviewActivity.class);
+            Intent intent = new Intent(this, PreviewActivity.class);
             intent.putExtra(NAME_TEXT,nameText);
 
             startActivity(intent);

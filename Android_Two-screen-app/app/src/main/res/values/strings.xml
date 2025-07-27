@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">twoScreenApp</string>
+    <string name="back">Back</string>
+    <string name="profile_preview">Profile Preview</string>
+    <string name="connect_to_linkedin">Connect to LinkedIn</string>
+    <string name="make_your_profile">Make Your Profile</string>
+    <string name="profile_preview_view">Profile Preview</string>
 </resources>
