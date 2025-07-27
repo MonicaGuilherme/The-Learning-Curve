@@ -23,10 +23,10 @@ public class PreviewActivity extends AppCompatActivity {
                 String bioPreview = intent.getStringExtra(MainActivity.BIO_TEXT);
 
         TextView copyName = findViewById(R.id.nameView);
-        copyName.setText(namePreview);
+        copyName.setText(namePreview.isEmpty() ? "No input, please right your name" : namePreview);
 
         TextView copyBio = findViewById(R.id.bioView);
-        copyBio.setText(bioPreview);
+        copyBio.setText(bioPreview.isEmpty() ? "No information to show" : bioPreview);
 
         Button backButton = findViewById(R.id.button_back);
         backButton.setOnClickListener(v -> finish());

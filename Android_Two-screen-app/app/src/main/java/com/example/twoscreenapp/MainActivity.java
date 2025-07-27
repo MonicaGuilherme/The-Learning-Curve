@@ -1,7 +1,9 @@
 package com.example.twoscreenapp;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         EditText bio = findViewById(R.id.text_bio);
 
         Button previewBtn = findViewById((R.id.button_preview));
+        Button linkedinButton = findViewById(R.id.button_linkedIn);
 
         previewBtn.setOnClickListener(v -> {
             String nameText = name.getText().toString();
@@ -37,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-
+        linkedinButton.setOnClickListener(v ->  {
+                String url = "https://www.linkedin.com/in/monica-guilherme";
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(intent);
+        });
     }
 }
