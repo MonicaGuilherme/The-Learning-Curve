@@ -2,6 +2,7 @@ package com.example.twoscreenapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -19,10 +20,15 @@ public class PreviewActivity extends AppCompatActivity {
 
                 Intent intent = getIntent();
                 String namePreview = intent.getStringExtra(MainActivity.NAME_TEXT);
-                //String bioPreview = intent.getStringExtra(MainActivity.)
+                String bioPreview = intent.getStringExtra(MainActivity.BIO_TEXT);
 
         TextView copyName = findViewById(R.id.nameView);
         copyName.setText(namePreview);
 
+        TextView copyBio = findViewById(R.id.bioView);
+        copyBio.setText(bioPreview);
+
+        Button backButton = findViewById(R.id.button_back);
+        backButton.setOnClickListener(v -> finish());
         };
     }
