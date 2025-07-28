@@ -1,6 +1,7 @@
 package com.training.helloworld;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -19,13 +20,29 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btn = findViewById(R.id.button);
-        TextView textView = findViewById(R.id.main);
+        TextView textView = findViewById(R.id.textView);
+        EditText editText = findViewById(R.id.editText);
 
-        btn.setOnClickListener(v -> {});
+        btn.setOnClickListener(v -> {
+            Log.d("xpto","Button callback executing");
 
-        EditText editText = findViewById(R.id.name);
+            textView.setText(R.string.textview);
+            editText.setText("");
+
+        });
+
+
         editText.setOnEditorActionListener((v, actionId, e) -> {
-            textView.setText(v.getText());
+
+            Log.d("XPTO","Edit Text callback executing...");
+
+            CharSequence text = v.getText();
+            if(!text.toString().isEmpty()){
+                textView.setText(v.getText());
+                v.setText("");
+            }
+
+
             return true;
         });
 
