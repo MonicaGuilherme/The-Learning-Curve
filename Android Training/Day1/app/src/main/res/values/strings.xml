@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">HelloWorld</string>
-    <string name="counter">Count</string>
+    <string name="button">Clear</string>
+    <string name="logo">logo</string>
+    <string name="name">Insert your name</string>
 </resources>
