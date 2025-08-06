@@ -1,4 +1,4 @@
-package com.training.contact_messeger_app;
+package com.training.messengerapp;
 
 import org.junit.Test;
 
