@@ -16,7 +16,6 @@ slogan = "Fruits and vegetables grown without pesticides"
 website = "www.freshfromthefarm.com"
 
 
-
 #----------
 # INTEGERS
 # 
@@ -89,7 +88,7 @@ available_categories = {"fruit", "vegetables", "organic"}
 #----------
 # DICTIONARY (dict)
 # 
-# Stores data in key-value pairs.
+# Stores data in key-value pairs (key:value).
 
 store_info = {
     "name": "Fresh From The Farm",

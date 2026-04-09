@@ -4,12 +4,13 @@
 
 # What is Python?
 # --------------------
-# Python is a high-level, interpreted programming language known for its
-# simple and readable syntax. It was created by Guido van Rossum and first released in 1991.
+# Python is a high-level programming language known for its
+# simple and readable syntax. It was created by Guido van Rossum
+# and first released in 1991.
 
-# Python was designed with a strong focus on code readability, using
-# indentation and clear syntax to make programs easy to understand and
-# maintain.
+# Python was designed with a strong focus on code readability,
+# using indentation and clear structure to make programs easy
+# to understand and maintain.
 
 
 
@@ -21,7 +22,7 @@
 # - Automation and scripting
 # - Artificial intelligence and machine learning
 # - Software testing
-# - Desktop applications
+# - Desktop application development
 
 
 
@@ -37,11 +38,11 @@
 # Advantages of Python
 # --------------------
 # 1. Simple and readable syntax
-# Python code is close to plain English, which makes it easier to learn,
+# Python code is often close to plain English, making it easier to learn,
 # write, and maintain.
 
 # 2. Beginner-friendly
-# Python is often used as a first programming language because it allows
+# Python is commonly used as a first programming language because it allows
 # beginners to focus on logic instead of complex syntax.
 
 # 3. Versatile
@@ -49,12 +50,12 @@
 # data analysis, AI, machine learning, scripting, and more.
 
 # 4. Large standard library
-# Python comes with many built-in modules, reducing the need to write
+# Python includes many built-in modules, reducing the need to write
 # everything from scratch.
 
 # 5. Strong community and ecosystem
-# There are thousands of libraries and a very active community, which
-# makes finding solutions and documentation easier.
+# There are thousands of libraries and a very active community, making it
+# easier to find solutions and documentation.
 
 # 6. Cross-platform
 # Python runs on Windows, macOS, and Linux with little or no changes.
@@ -64,22 +65,22 @@
 # Disadvantages of Python
 # -----------------------
 # 1. Slower execution speed
-# Python is interpreted, which generally makes it slower than compiled
-# languages like C, C++ or Java.
+# Python is interpreted (executed by an interpreter), which generally makes
+# it slower than compiled languages like C or C++.
 
 # 2. Not ideal for mobile or frontend development
 # Python is rarely used to build mobile apps or browser-based frontends.
 
 # 3. Runtime errors
 # Because Python is dynamically typed, some errors are only detected
-# when the program is running.
+# during execution.
 
 # 4. Memory consumption
 # Python programs often use more memory compared to lower-level languages.
 
 # 5. Global Interpreter Lock (GIL)
-# In CPython, the GIL limits true parallel execution of threads, which
-# can be a drawback for CPU-intensive tasks.
+# In CPython, the GIL limits true parallel execution of threads,
+# which can be a drawback for CPU-intensive tasks.
 
 
 
