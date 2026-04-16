@@ -1,101 +1,103 @@
-# Python Fundamentals – Learning Notebook
-# ------------------------------------------------
+# ==========================================
+# PYTHON FUNDAMENTALS – LEARNING NOTEBOOK
+# ==========================================
+# This file introduces Python and the purpose of this notebook.
+# It serves as a starting point for learning the basics step by step.
 
 
-# What is Python?
-# --------------------
+# ==========================================
+# WHAT IS PYTHON?
+# ==========================================
 # Python is a high-level programming language known for its
-# simple and readable syntax. It was created by Guido van Rossum
-# and first released in 1991.
+# simple and readable syntax.
+#
+# It was created by Guido van Rossum and first released in 1991.
+#
+# Python focuses on readability and uses indentation to structure code,
+# making programs easier to understand and maintain.
 
-# Python was designed with a strong focus on code readability,
-# using indentation and clear structure to make programs easy
-# to understand and maintain.
 
-
-
-# Where is Python used?
-# --------------------
-# Python is widely used in many areas, such as:
+# ==========================================
+# WHERE IS PYTHON USED?
+# ==========================================
+# Python is widely used in many areas:
+#
 # - Web development (backend)
 # - Data analysis and data science
 # - Automation and scripting
 # - Artificial intelligence and machine learning
 # - Software testing
-# - Desktop application development
+# - Desktop applications
 
 
-
-# Why is Python useful?
-# --------------------
+# ==========================================
+# WHY IS PYTHON USEFUL?
+# ==========================================
 # Python is beginner-friendly but also powerful enough for professional use.
-# It allows developers to write less code to achieve more, making it an
-# excellent choice for learning programming fundamentals and building
-# real-world applications.
+# It allows developers to write less code while solving complex problems,
+# making it a great language for both learning and real-world applications.
 
 
+# ==========================================
+# ADVANTAGES OF PYTHON
+# ==========================================
 
-# Advantages of Python
-# --------------------
 # 1. Simple and readable syntax
-# Python code is often close to plain English, making it easier to learn,
-# write, and maintain.
+# Code is close to plain English, making it easier to learn and maintain.
 
 # 2. Beginner-friendly
-# Python is commonly used as a first programming language because it allows
-# beginners to focus on logic instead of complex syntax.
+# Helps focus on logic instead of complex syntax.
 
 # 3. Versatile
-# Python can be used for many purposes: web development, automation,
-# data analysis, AI, machine learning, scripting, and more.
+# Can be used in many different areas and industries.
 
 # 4. Large standard library
-# Python includes many built-in modules, reducing the need to write
-# everything from scratch.
+# Many built-in tools reduce the need to build everything from scratch.
 
-# 5. Strong community and ecosystem
-# There are thousands of libraries and a very active community, making it
-# easier to find solutions and documentation.
+# 5. Strong community
+# Large ecosystem and plenty of learning resources.
 
 # 6. Cross-platform
-# Python runs on Windows, macOS, and Linux with little or no changes.
+# Runs on Windows, macOS, and Linux with little or no changes.
 
 
+# ==========================================
+# DISADVANTAGES OF PYTHON
+# ==========================================
 
-# Disadvantages of Python
-# -----------------------
 # 1. Slower execution speed
-# Python is interpreted (executed by an interpreter), which generally makes
-# it slower than compiled languages like C or C++.
+# Python is interpreted, so it is usually slower than compiled languages.
 
-# 2. Not ideal for mobile or frontend development
-# Python is rarely used to build mobile apps or browser-based frontends.
+# 2. Not ideal for frontend or mobile apps
+# Rarely used for browser-based UI or mobile development.
 
 # 3. Runtime errors
-# Because Python is dynamically typed, some errors are only detected
-# during execution.
+# Errors may only appear during execution due to dynamic typing.
 
-# 4. Memory consumption
-# Python programs often use more memory compared to lower-level languages.
+# 4. Higher memory usage
+# Uses more memory compared to lower-level languages.
 
 # 5. Global Interpreter Lock (GIL)
-# In CPython, the GIL limits true parallel execution of threads,
-# which can be a drawback for CPU-intensive tasks.
+# Limits true parallel execution in some cases (CPU-heavy tasks).
 
 
-
-# ------------------------------------------------
-# Structure of this learning notebook
-
-# Each topic is separated into its own file to keep concepts organized and easy to review:
+# ==========================================
+# NOTEBOOK STRUCTURE
+# ==========================================
+# Each topic is separated into its own file to keep things organized:
 #
-# - hello.py        -> Introduction and first program
-# - variables.py    -> Variables and basic data storage
-# - typecasting.py  -> Converting between data types
-# - userinput.py    -> Reading input from the user
+# - 01_hello.py
+# - 02_variables.py
+# - 03_type_casting.py
+# - 04_user_input.py
+#
+# This structure makes it easier to review concepts step by step.
 
 
-# ------------------------------------------------
-# First output in the terminal
+# ==========================================
+# FIRST OUTPUT
+# ==========================================
+# The print() function displays output in the terminal.
+
 print("Hello, World!")
 print("Let's get started with Python!")
